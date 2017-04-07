@@ -10,15 +10,6 @@
     <link href="novo.css" rel="stylesheet" type="text/css">
 
 <jsp:include page="topo.jsp"></jsp:include>
-<div id="links">
-    <jsp:include page="links.jsp"></jsp:include>
-</div>
-<div id="acessibilidade">
-    <jsp:include page="acessibilidade.jsp"></jsp:include>
-</div>
-<div id="google">
-    <jsp:include page="google.jsp"></jsp:include>
-</div>
 
     <div id="conteudo">
         <br><br> 

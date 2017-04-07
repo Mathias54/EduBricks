@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>EduBrink</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="recursos/estilo/padrao.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+        <link rel="icon" href="recursos/imagens/iconCode.png" />
+    </head>
+    <body>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Letramento</a></li>
+            <li><a href="#!">Jogo Dos Números</a></li>
+            <li><a href="#!">Jogo Das Cores</a></li>
+            <li><a href="#!">Jogo Da Velha</a></li>
+            <li><a href="#!">Jogo Da Memória</a></li>
+            <li><a href="#!">Outros Jogos</a></li>
+        </ul>
+        <nav class="nav">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">EduBrink</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Jogos<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="contato.html">Entre Em Contato</a></li>
+                    <li><a href="http://www.restinga.ifrs.edu.br/site/" target="_blank">Sobre IFRS Campus Restinga</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="contato.html">Entre Em Contato</a></li>
+                    <li><a href="http://www.restinga.ifrs.edu.br/site/">Sobre IFRS Campus Restinga</a></li>
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-accordion">
+                            <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Jogos</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#!">Letramento</a></li>
+                                        <li><a href="#!">Jogo Dos Números</a></li>
+                                        <li><a href="#!">Jogo Das Cores</a></li>
+                                        <li><a href="#!">Jogo Da Velha</a></li>
+                                        <li><a href="#!">Jogo Da Memória</a></li>
+                                        <li><a href="#!">Outros Jogos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="oque" class="col s12">
+            <div class="row">
+                <div class="col s12 img-apresentacao">
+                    <img class="img-inicial" src="recursos/imagens/Fundo1.jpg" alt=""/>
+                </div>
+                <div class="col s12">
+                    <div class="row">
+                        <div class="txt-central">
+                            <h5 class="titulo-central">Sobre</h5>
+                            <p class=" flow-text"> 
+                                O site faz parte do Projeto de inclusão digital na escola de Educação Especial Municipal Tristão Sucupira Vianna, sob a coordenação do Professor Pedro Rocha.
+                                Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
+                                intuito de desenvolver a alfabetização de crianças e jovens. O site faz parte do Projeto de inclusão digital na escola
+                                de Educação Especial Municipal Tristão Sucupira Vianna. O site já contempla alguns jogos, onde as crianças aprendem a ler e escrever
+                                se divertindo. Elas também podem identificar as imagens apresentadas,aumentando a intuitividade e desenvolvendo o cognitivo através da ludicidade. 
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--        <div class="tentando-parallax"> </div>-->
+
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017
+                </div>
+            </div>
+        </footer>
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="recursos/js/materialize.js"></script>
+        <script src="recursos/js/init.js"></script>
+    </body>
+</html>

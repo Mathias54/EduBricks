@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2017, 1:47:35 PM
+    Author     : morganar
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 5, 2017, 2:45:23 PM
+    Author     : morganar
+*/
+
+
+.nav-wrapper{
+    background-color:#293239;
+}
+
+body,html{ 
+    height: 100%;  
+
+}
+
+
+.tentando-parallax{
+    background-image: url('../imagens/fundo.jpg');
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.txt-central{
+    margin:2% 10% 5% 10%;
+}
+
+.titulo-central{
+    text-align:start;
+    color:#999999;
+    font-family:inherit;
+    font-size: 35px;
+}
+
+.img-inicial{
+    width: 100%;
+    border-bottom: 5px;
+    border-bottom-color:#006666;
+}
+.img-mongo{
+    width: 100%;
+    height: 5%;        
+}
+.img-delphi{
+    width: 100%;
+    height: 5%;        
+}
+
+.img-apresentacao{
+    height: 20%;
+    width: 100%;
+}
+
+
+.formEntreEmContato{
+    margin: 5% 30% 20% 35%; 
+}
+.btn-form{
+    margin-left: 80%;
+}
+
+.page-footer{
+    background-color:#333333!important;   
+}
+.footer-copyright{
+    background-color:#000 !important;
+}
+h5{
+    text-align:justify;
+}
+
+.rodape-h3{
+    text-align: initial;
+    margin: 3% 0% 0% -10%;
+    padding-bottom: 6%;
+    color:#cccccc;
+}
+
+.resumo-desenvolvedor{
+    height: 20%;
+    width: 60%;
+    color:white;
+}
+/*SOBREENCREVENDO MATERIALIZE*/
+.row .col{
+    padding: 0 !important;
+}

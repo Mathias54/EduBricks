@@ -1,183 +1,183 @@
 body {
     background-color: #ccffcc;
 }
-        #menu {        
-		font-size:1em;
-                font-family: arial;
-                width: 250px;
-                margin-top: 15px;
-                position: absolute;
-                left: -20px;
-                
-        }
-	#menu h3{
-		height:27px;
-	}
-	#menu h3 span, #menu h3 a{
-		width:4px;
-		height:27px;
-	}
-	#menu h3.portal{
-		background:transparent url(img/portal_fundo.jpg) repeat-x left top;
-	}
-	#menu span.portal_esq{
-		background:transparent url(img/portal_esq.jpg) no-repeat left top;
-		float:left;
-	}
-	#menu span.portal_a{
-		background:transparent url(img/portal_a.jpg) no-repeat left;
-		width:16px;
-		text-indent:-200px;
-		outline:0;
-		float:left;
-                
-	}
-	#menu span.portal_dir{
-		background:transparent url(ima/portal_dir.jpg) no-repeat left top;
-		float:right;
-	}
-	#menu h3.acess{
-		background:transparent url(imagens/portal_fundo.jpg) repeat-x left top;
-	}
-	#menu span.acess_esq{
-		background:transparent url(imagens/portal_esq.jpg) no-repeat left top;
-		float:left;
-	}
-	#menu span.acess_a{
-		background:transparent url(imagens/portal_a.jpg) no-repeat left ;
-		width:50px;
-		text-indent:-200px;
-		outline:0;
-		float:left;
-	}
-	#menu span.acess_dir{
-		background:transparent url(imagens/portal_dir.jpg) no-repeat left top;
-		float:right;
-	}
-	#menu ul{
-		margin-bottom:20px;
-                text-decoration: none;
-                list-style: none;
-	}
-	#menu ul li{
-		border-bottom: #DEDEDE;
-		margin:5px;
-                text-decoration: none;
-                list-style: none;
-	}
-	#menu ul li a{
-		display:block;
-		padding:5px;
-                list-style: none;
-                text-decoration: none;
-                list-style: none;
-	}
-	#menu ul.portal li a:hover{
-		background:#009900;
-		color:#FFF;
-	}
+#menu {        
+    font-size:1em;
+    font-family: arial;
+    width: 250px;
+    margin-top: 15px;
+    position: absolute;
+    left: -20px;
 
-	#menu ul.acess li a:hover{
-		background:#009900;
-		color:#FFF;
-	}
+}
+#menu h3{
+    height:27px;
+}
+#menu h3 span, #menu h3 a{
+    width:4px;
+    height:27px;
+}
+#menu h3.portal{
+    background:transparent url(img/portal_fundo.jpg) repeat-x left top;
+}
+#menu span.portal_esq{
+    background:transparent url(img/portal_esq.jpg) no-repeat left top;
+    float:left;
+}
+#menu span.portal_a{
+    background:transparent url(img/portal_a.jpg) no-repeat left;
+    width:16px;
+    text-indent:-200px;
+    outline:0;
+    float:left;
+
+}
+#menu span.portal_dir{
+    background:transparent url(ima/portal_dir.jpg) no-repeat left top;
+    float:right;
+}
+#menu h3.acess{
+    background:transparent url(imagens/portal_fundo.jpg) repeat-x left top;
+}
+#menu span.acess_esq{
+    background:transparent url(imagens/portal_esq.jpg) no-repeat left top;
+    float:left;
+}
+#menu span.acess_a{
+    background:transparent url(imagens/portal_a.jpg) no-repeat left ;
+    width:50px;
+    text-indent:-200px;
+    outline:0;
+    float:left;
+}
+#menu span.acess_dir{
+    background:transparent url(imagens/portal_dir.jpg) no-repeat left top;
+    float:right;
+}
+#menu ul{
+    margin-bottom:20px;
+    text-decoration: none;
+    list-style: none;
+}
+#menu ul li{
+    border-bottom: #DEDEDE;
+    margin:5px;
+    text-decoration: none;
+    list-style: none;
+}
+#menu ul li a{
+    display:block;
+    padding:5px;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+#menu ul.portal li a:hover{
+    background:#009900;
+    color:#FFF;
+}
+
+#menu ul.acess li a:hover{
+    background:#009900;
+    color:#FFF;
+}
 #acessibilidade{
-        color: #009900;
-	margin:9px 0;
-	height:1%;
-        text-decoration: none;
-        list-style: none;
+    color: #009900;
+    margin:9px 0;
+    height:1%;
+    text-decoration: none;
+    list-style: none;
 }
 #acessibilidade ul{
-	padding:5px;
+    padding:5px;
 }
 #acessibilidade ul li{
-	float:left;
-	margin-right:25px;
+    float:left;
+    margin-right:25px;
 }
 #acessibilidade ul li a{
-	font-size:0.92em;
-	color: black;
-        list-style: none;
-        text-decoration: none;
+    font-size:0.92em;
+    color: black;
+    list-style: none;
+    text-decoration: none;
 }
 #acessibilidade ul li a:hover{
-	text-decoration:none;
+    text-decoration:none;
 }
 #acessibilidade ul#atalhos{
-	float:left;
-        padding-left:43px;
+    float:left;
+    padding-left:43px;
 }
 #acessibilidade #botoes_acessibilidade li{
-	margin:0 0 0 39px;
+    margin:0 0 0 39px;
 }
 #acessibilidade #botoes_acessibilidade{
-	float:right;
-	width:480px;
+    float:right;
+    width:480px;
 }
 ul#botoes_acessibilidade li a {
-	padding-left:23px;
-	height:13px;
+    padding-left:23px;
+    height:13px;
 }
 ul#botoes_acessibilidade li a.aumenta_letra{
-	background:transparent url(imagens/aumentar.gif) no-repeat left bottom;
+    background:transparent url(imagens/aumentar.gif) no-repeat left bottom;
 }
 ul#botoes_acessibilidade li a.diminui_letra{
-	background:transparent url(imagens/diminuir.gif) no-repeat left bottom;
+    background:transparent url(imagens/diminuir.gif) no-repeat left bottom;
 }
 ul#botoes_acessibilidade li a.tamanho_normal{
-	background:transparent url(imagens/normal.gif) no-repeat left bottom;
+    background:transparent url(imagens/normal.gif) no-repeat left bottom;
 }
 ul#botoes_acessibilidade li a.alto_contraste{
-	background:transparent url(imagens/alto_contraste.jpg) no-repeat left bottom;
+    background:transparent url(imagens/alto_contraste.jpg) no-repeat left bottom;
 }
 #menu_container{
-	position: relative;
-	display: block;
+    position: relative;
+    display: block;
 }
 #acessibilidade ul#menu_contraste * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #acessibilidade ul#menu_contraste {
-   	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #acessibilidade ul#menu_contraste{
-	position: absolute;
-	top: 36px;
-	left:20px;
-	display: none;
-	list-style: none;
-	padding:3px;
-        text-decoration: none;
+    position: absolute;
+    top: 36px;
+    left:20px;
+    display: none;
+    list-style: none;
+    padding:3px;
+    text-decoration: none;
 }        
 #menu_contraste li{
-	clear: both;
+    clear: both;
 }
 #menu_contraste li a:hover{
-	text-decoration: none;
-        list-style: none;
+    text-decoration: none;
+    list-style: none;
 }
 #menu_contraste li a{
-	display: block;
-	width: 880px;
-	text-decoration: none;
-	background:transparent url(imagens/fundo_acessibilidade.jpg) repeat left top;
-	text-indent: 0;
-	color: #FFF;
-	display: block;
+    display: block;
+    width: 880px;
+    text-decoration: none;
+    background:transparent url(imagens/fundo_acessibilidade.jpg) repeat left top;
+    text-indent: 0;
+    color: #FFF;
+    display: block;
 }
 #menu .validacoes a img{
-	 height:31px;
-	 width:88px;
-	 border:0 none;
+    height:31px;
+    width:88px;
+    border:0 none;
 }
 #menu .validacoes li{
-	border:0 none;
+    border:0 none;
 }
 #menu .validacoes li a{
-	display:inline-block;
+    display:inline-block;
 }
 #acessibilidade{
     position: relative;
@@ -209,20 +209,20 @@ ul#botoes_acessibilidade li a.alto_contraste{
     margin-top:10px;
     left: 5px;
     width:100px;
-  height:100px;
+    height:100px;
 }
 #link2 {
     position:absolute;
-	 left:0px;
-	 top:475px;
-        
-        
+    left:0px;
+    top:475px;
+
+
 }
 #scroll {
-  width:300px;
-  height:170px;
-  background-color:#F2F2F2;
-  overflow:auto;
+    width:300px;
+    height:170px;
+    background-color:#F2F2F2;
+    overflow:auto;
 }
 #contador {
     position: absolute;
@@ -236,7 +236,7 @@ ul#botoes_acessibilidade li a.alto_contraste{
     margin-top: 0px;
     width:800px;
     height:140%;
-       
+
 }
 #conteudo1 {
     color: black;
@@ -245,7 +245,7 @@ ul#botoes_acessibilidade li a.alto_contraste{
     margin-top:50px;
     width:800px;
     height:140%;
-       
+
 }
 #prop {
     position: absolute;
@@ -256,14 +256,14 @@ ul#botoes_acessibilidade li a.alto_contraste{
     color: black;
     font-size: 24pt;
     font-family: arial;
-  }
+}
 
 #conteudo h2 {
     color: black;
     font-size: 20pt;
     font-family: arial;
-   
-    }
+
+}
 
 
 #conteudo p {
@@ -281,12 +281,12 @@ ul#botoes_acessibilidade li a.alto_contraste{
     color: #003366;
     font-size: 18pt;
     font-family: arial;
-    }
+}
 #conteudo ul li {
     color: #003366;
     font-size: 18pt;
     font-family: arial;
-   
+
 }
 #conteudo li {
     color: #003366;
@@ -302,21 +302,21 @@ ul#botoes_acessibilidade li a.alto_contraste{
     font-family: arial;
 }
 #login a {
-   text-decoration: none;
-   list-style: none;
-   font-size: 12pt;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12pt;
 }
 #slider {position: relative; overflow: hidden;padding-top:21px;margin-left:80px;margin-right:40px;height:125px;}
 #slider a {position:absolute;	margin:0;display:none; height:125px; width:160px;}
 #imageloader {position:relative; display:block; width: 100%; margin: 0px auto; text-align: center;}
 #imageloader img {position:relative; top:70px; z-index:100; width:128px; height:15px; display:inline;}
 #rodando {
-background: url(imagens/slider.jpg);
-width:1000px;
-height:180px;
-position:absolute;
-top: 280px;
-left: 210px;
+    background: url(imagens/slider.jpg);
+    width:1000px;
+    height:180px;
+    position:absolute;
+    top: 280px;
+    left: 210px;
 }
 #rodape {
     padding:525px;
@@ -324,28 +324,28 @@ left: 210px;
 
 #navlist
 {
-padding: 0 1px 1px;
-margin-left: 0;
-font: bold 12px Verdana, sans-serif;
-background: gray;
-width: 13em;
+    padding: 0 1px 1px;
+    margin-left: 0;
+    font: bold 12px Verdana, sans-serif;
+    background: gray;
+    width: 13em;
 }
 
 #navlist li
 {
-list-style: none;
-margin: 0;
-border-top: 1px solid gray;
-text-align: left;
+    list-style: none;
+    margin: 0;
+    border-top: 1px solid gray;
+    text-align: left;
 }
 
 #navlist li a
 {
-display: block;
-padding: 0.25em 0.5em 0.25em 0.75em;
-border-left: 1em solid #AAB;
-background: #CCD;
-text-decoration: none;
+    display: block;
+    padding: 0.25em 0.5em 0.25em 0.75em;
+    border-left: 1em solid #AAB;
+    background: #CCD;
+    text-decoration: none;
 }
 
 #navlist li a:link { color: #448; }
@@ -353,9 +353,9 @@ text-decoration: none;
 
 #navlist li a:hover
 {
-border-color: #FE3;
-color: #FFF;
-background: #332;
+    border-color: #FE3;
+    color: #FFF;
+    background: #332;
 }
 
 #h1{
@@ -372,113 +372,113 @@ background: #332;
     height:80px;
 }
 #arvore{
-   
-         position:absolute;
-	 left:17px;
-	 top:40px;
+
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 #rato{
-   
-         position:absolute;
-	 left:200px;
-	 top:40px;
+
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 
 #baleia{
-   
-         position:absolute;
-	 left:370px;
-	 top:40px;
+
+    position:absolute;
+    left:370px;
+    top:40px;
 }
 #rio{
-         position:absolute;
-	 left:17px;
-	 top:40px;
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 
 
 #sorvete{
-       position:absolute;
-	 left:200px;
-	 top:40px;
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 #olho{
-    
-         position:absolute;
-	 left:370px;
-	 top:40px;
+
+    position:absolute;
+    left:370px;
+    top:40px;
 }
 
 #papagaio{
-        position:absolute;
-	 left:17px;
-	 top:40px;
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 #coelho{
-         position:absolute;
-	 left:200px;
-	 top:40px;
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 #elefante{
-         position:absolute;
-	 left:370px;
-	 top:40px;
+    position:absolute;
+    left:370px;
+    top:40px;
 }
 #anel{
-     position:absolute;
-	 left:17px;
-	 top:40px;
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 #dente{
-       position:absolute;
-	 left:200px;
-	 top:40px;
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 #professora{
-        position:absolute;
-	 left:370px;
-	 top:40px;
+    position:absolute;
+    left:370px;
+    top:40px;
 }
 #ricardo{
-     position:absolute;
-	 left:17px;
-	 top:40px;
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 #garfo{
-      position:absolute;
-	 left:200px;
-	 top:40px;
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 #carro{
     position:absolute;
-	 left:17px;
-	 top:40px;
+    left:17px;
+    top:40px;
 }
 #filhote{
-     position:absolute;
-	 left:200px;
-	 top:40px;
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 #moto{
-       position:absolute;
-	 left:370px;
-	 top:40px;
+    position:absolute;
+    left:370px;
+    top:40px;
 }
 #galinha{
-         position:absolute;
-	 left:17px;
-	 top:40px;
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 #bone{
-         position:absolute;
-	 left:200px;
-	 top:40px;
+    position:absolute;
+    left:200px;
+    top:40px;
 }
 #macaco{
-    
-        position:absolute;
-	 left:370px;
-	 top:40px;
+
+    position:absolute;
+    left:370px;
+    top:40px;
 }
 #corpo{
     position:absolute;
@@ -488,18 +488,18 @@ background: #332;
 }
 #olho{
     position:absolute;
-	 left:170px;
-	 top:40px;
+    left:170px;
+    top:40px;
 }
 #perna{
-         position:absolute;
-	 left:500px;
-	 top:40px;
+    position:absolute;
+    left:500px;
+    top:40px;
 }
 #boca{
-         position:absolute;
-	 left:870px;
-	 top:40px;
+    position:absolute;
+    left:870px;
+    top:40px;
 }
 #animais{
     position:absolute;
@@ -508,29 +508,29 @@ background: #332;
     height:80px;
 }
 #pato{
-     position:absolute;
-	 left:100px;
-	 top:40px;
+    position:absolute;
+    left:100px;
+    top:40px;
 }
 #leao{
-     position:absolute;
-	 left:300px;
-	 top:40px;
+    position:absolute;
+    left:300px;
+    top:40px;
 }
 #gato{
-     position:absolute;
-	 left:790px;
-	 top:40px;
+    position:absolute;
+    left:790px;
+    top:40px;
 }
 #galinha1{
-        position:absolute;
-	 left:530px;
-	 top:40px;
+    position:absolute;
+    left:530px;
+    top:40px;
 }
 #elefante1{
-     position:absolute;
-	 left:1000px;
-	 top:40px;
+    position:absolute;
+    left:1000px;
+    top:40px;
 }
 #numero{
     position:absolute;
@@ -539,30 +539,30 @@ background: #332;
     height:80px;
 }
 #zero{
-     position:absolute;
-	 left:100px;
-	 top:40px;
+    position:absolute;
+    left:100px;
+    top:40px;
 }
 #um{
-     position:absolute;
-	 left:300px;
-	 top:40px;
+    position:absolute;
+    left:300px;
+    top:40px;
 }
 #dois{
     position:absolute;
-	 left:500px;
-	 top:40px;
+    left:500px;
+    top:40px;
 }
 #tres{
-      position:absolute;
-	 left:700px;
-	 top:40px;
+    position:absolute;
+    left:700px;
+    top:40px;
 }
 
 #quatro{
-       position:absolute;
-	 left:900px;
-	 top:40px;
+    position:absolute;
+    left:900px;
+    top:40px;
 }
 #fase{
     position:absolute;
@@ -571,213 +571,213 @@ background: #332;
     height:80px;
 }
 #criança{
-     position:absolute;
-	 left:17px;
-	 top:40px;
+    position:absolute;
+    left:17px;
+    top:40px;
 }
 #idosos{
-        position:absolute;
-	 left:200px;
-	 top:40px;
-    
+    position:absolute;
+    left:200px;
+    top:40px;
+
 }
 #adolescentes{
-     position:absolute;
-	 left:350px;
-	 top:40px;
+    position:absolute;
+    left:350px;
+    top:40px;
 }
 #logoprojeto{
-       position:absolute;
-	 left:20px;
-	 top:945px;
+    position:absolute;
+    left:20px;
+    top:945px;
 }
 #edubrink{
-       position:absolute;
-	 left:35px;
-	 top:725px;
+    position:absolute;
+    left:35px;
+    top:725px;
 }
 h4{
     top:800px; 
-   position:absolute;
-  font-size: 21px; 
-  left:35px;
-  font-family: arial;
+    position:absolute;
+    font-size: 21px; 
+    left:35px;
+    font-family: arial;
 }
 #soma{
-   
-         position:absolute;
-	 left:17px;
-	 top:50px;
+
+    position:absolute;
+    left:17px;
+    top:50px;
 }
 #soma1{
-   
-         position:absolute;
-	 left:17px;
-	 top:310px;
+
+    position:absolute;
+    left:17px;
+    top:310px;
 }
 h3{
-     position:absolute;
-	 left:210px;
-	 top:5px;
+    position:absolute;
+    left:210px;
+    top:5px;
 }
 #jogos{
     position:absolute;
-	 left:590px;
-	 top:310px;
+    left:590px;
+    top:310px;
 }
 #jogos h3{
     left:590px;
     top:310px;
 }
 #conteudo2{
-     position:absolute;
-	 left:230px;
-	 top:210px;
-        font-size: 8pt;
+    position:absolute;
+    left:230px;
+    top:210px;
+    font-size: 8pt;
 }
 #conteudo5 {
     color: #003366;
     font-size: 18pt;
     font-family: arial;
     top:100px;
-    }
-    p{
+}
+p{
     color: black;
     font-size: 10pt;
     font-family: arial;
     top:80px;
-    }
-  body.contraste *
+}
+body.contraste *
 {
-        background:#000 !important;
+    background:#000 !important;
 }
 
 body.contraste p, body.contraste li, body.contraste label, body.contraste input, body.contraste select, body.contraste textarea, body.contraste span, body.contraste legend, body.contraste caption
 {
-        color:#FFF !important;
+    color:#FFF !important;
 }
 
 body.contraste legend{
-        border-bottom:1px solid #FFF !important;
+    border-bottom:1px solid #FFF !important;
 }
 
 body.contraste input[type="submit"],
 body.contraste .add,
 body.contraste #resetar_config
 {
-        border:1px solid #FFF !important;
+    border:1px solid #FFF !important;
 }
 
 body.contraste a
 {
-        color:#9F0 !important;
-        font-weight:bold;
+    color:#9F0 !important;
+    font-weight:bold;
 }
 
 body.contraste img
 {
-        border:1px solid #FFF !important;
+    border:1px solid #FFF !important;
 }
 
 body.contraste h1, body.contraste h3, body.contraste h4, body.contraste h2 span, body.contraste h3 span
 {
-        color:#090 !important;
+    color:#090 !important;
 }
 
 body.contraste h2
 {
-        color: #fff !important;
+    color: #fff !important;
 }
 
 body.contraste h1,
 body.contraste h1 a
 {
-        background: url(../images/logo.png) no-repeat center center !important;
+    background: url(../images/logo.png) no-repeat center center !important;
 }
 body.contraste table thead th,
 body.contraste caption
 {
-        border-bottom: 1px solid #FFF !important;
-        color:#090 !important;
+    border-bottom: 1px solid #FFF !important;
+    color:#090 !important;
 }
 body.contraste footer *{
-        color: #fff;
+    color: #fff;
 }
 
 body.contraste .date-1,
 body.contraste .name-author{
-        color: #fff;
+    color: #fff;
 }
 
 
 /* navbar */
 .navbar_ {
-  margin: 0 auto;
-  display: table;
+    margin: 0 auto;
+    display: table;
 }
 .navbar_ .navbar-inner_ {
-  padding: 10;
-  margin:50;
+    padding: 10;
+    margin:50;
 }
 
 /*nav*/
 .navbar_ .container {
-  z-index: 2;
+    z-index: 2;
 }
 .nav-collapse_ {
-  padding: 0;
-  float: right;
+    padding: 0;
+    float: right;
 }
 .nav-collapse_ .nav li,
 .nav-collapse_ .nav li wlauto {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .nav-collapse_ .nav > li,
 .nav-collapse_ .nav > li wlauto {
-  background: none;
-  margin-left: 5px;
+    background: none;
+    margin-left: 5px;
 }
 .nav-collapse_ .nav li a,
 .nav-collapse_ .nav li wlauto a {
-  text-shadow: none;
-  text-decoration: none;
- 
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  font-weight: normal;
-  color: #eee;
-  outline:none;
+    text-shadow: none;
+    text-decoration: none;
 
-  border-bottom: solid 6px transparent;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+    color: #eee;
+    outline:none;
+
+    border-bottom: solid 6px transparent;
 }
 .nav-collapse_ .nav > li > a,
 .nav-collapse_ .nav > li > wlauto a {
-  margin: 0;
-  padding: 30px 0 32px;
-  display: block;
-  background: none;
-  z-index: 20;
-  padding: 15px;
+    margin: 0;
+    padding: 30px 0 32px;
+    display: block;
+    background: none;
+    z-index: 20;
+    padding: 15px;
 }
 .nav-collapse_ .nav > li > a .sf-sub-indicator,
 .nav-collapse_ .nav > li > wlauto a .sf-sub-indicator {
-  position: absolute;
-  width: 9px;
-  height: 6px;
-  background: url(../images/indicator1.png) no-repeat 0 0;
-  left: 50%;
-  bottom: 21px;
-  margin-left: -5px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
-  border-radius: none;
+    position: absolute;
+    width: 9px;
+    height: 6px;
+    background: url(../images/indicator1.png) no-repeat 0 0;
+    left: 50%;
+    bottom: 21px;
+    margin-left: -5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
 }
 .nav-collapse_ .nav  a.selected,
 .nav-collapse_ .nav wlauto a.selected,
@@ -797,43 +797,43 @@ body.contraste .name-author{
 .nav-collapse_ .nav > li.active > a:focus,
 .nav-collapse_ .nav > li.active > wlauto a:hover,
 .nav-collapse_ .nav > li.active > wlauto a:focus {
-  background:#5A7610;
-  color: #ffffff;
-  box-shadow: none;
-  border-bottom: solid 6px #88A43F;
+    background:#5A7610;
+    color: #ffffff;
+    box-shadow: none;
+    border-bottom: solid 6px #88A43F;
 }
 .nav-collapse_ .nav > li.sfHover > a .sf-sub-indicator,
 .nav-collapse_ .nav > li.sfHover > wlauto a .sf-sub-indicator,
 .nav-collapse_ .nav > li.active > a .sf-sub-indicator,
 .nav-collapse_ .nav > li.active > wlauto a .sf-sub-indicator {
-  background-position: 0 bottom;
+    background-position: 0 bottom;
 }
 .sub-menu > a,
 .sub-menu > wlauto a {
-  position: relative;
+    position: relative;
 }
 .nav-collapse_ .nav ul {
-  position: absolute;
-  display: none;
-  width: 120px;
-  left: -18px;
-  top: 84px;
-  list-style: none;
-  zoom: 1;
-  z-index: 9;
-  background: #000;
-  padding: 12px 0;
-  margin: 0;
+    position: absolute;
+    display: none;
+    width: 120px;
+    left: -18px;
+    top: 84px;
+    list-style: none;
+    zoom: 1;
+    z-index: 9;
+    background: #000;
+    padding: 12px 0;
+    margin: 0;
 }
 .nav-collapse_ .nav ul li,
 .nav-collapse_ .nav ul li wlauto{
-  text-align: center;
+    text-align: center;
 }
 .nav-collapse_ .nav ul li a,
 .nav-collapse_ .nav ul li wlauto a {
-  padding: 4px 0;
-  display: block;
-  background: none;
+    padding: 4px 0;
+    display: block;
+    background: none;
 }
 .nav-collapse_ .nav > li > ul li > a:hover,
 .nav-collapse_ .nav > li > ul li > a:focus,
@@ -841,45 +841,45 @@ body.contraste .name-author{
 .nav-collapse_ .nav > li > ul li > wlauto a:focus,
 .nav-collapse_ .nav > li > ul li.sfHover > a,
 .nav-collapse_ .nav > li > ul li.sfHover > wlauto a {
-  text-decoration: none;
-  color: #ffffff;
-  background: #5A7610;
+    text-decoration: none;
+    color: #ffffff;
+    background: #5A7610;
 }
 .nav-collapse_ .nav ul .sf-sub-indicator {
-  display: none;
+    display: none;
 }
 .nav-collapse_ .nav ul ul li a,
 .nav-collapse_ .nav ul ul li wlauto a {
-  color: #ffffff;
+    color: #ffffff;
 }
 .nav-collapse_ .nav li ul ul li a:hover,
 .nav-collapse_ .nav li ul ul li a:focus,
 .nav-collapse_ .nav li ul ul li wlauto a:hover,
 .nav-collapse_ .nav li ul ul li wlauto a:focus {
-  text-decoration: none;
-  color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 /* navbar */
 
-  .barraAcessibilidade.collapse.in{
+.barraAcessibilidade.collapse.in{
     display: table !important;
-  }
+}
 
-  .nav-collapse_ {
+.nav-collapse_ {
     padding-top: 0px;
     padding-right: 0;
-  }
-  .nav-collapse_ ul li,
-  .nav-collapse_ ul li wlauto{
+}
+.nav-collapse_ ul li,
+.nav-collapse_ ul li wlauto{
     background-color: #3D510C !important;
-  }
-  .navbar_ .nav-collapse_ {
+}
+.navbar_ .nav-collapse_ {
     position: absolute;
     top: 62px;
     z-index: 999;
     height: 0px;
-  }
-  .navbar_ .btn {
+}
+.navbar_ .btn {
     display: inline-block;
     float: left;
     background: #5A7610;
@@ -902,13 +902,13 @@ body.contraste .name-author{
     font-weight: normal;
     position: relative;
     margin-left: 30px;
-  }
-  .navbar_ .btn:hover,
-  .navbar_ .btn:focus {
+}
+.navbar_ .btn:hover,
+.navbar_ .btn:focus {
     background: #72941B;
     color: #ffffff;
-  }
-  .navbar_ .btn .icon-bar {
+}
+.navbar_ .btn .icon-bar {
     position: absolute;
     width: 9px;
     height: 6px;
@@ -922,8 +922,8 @@ body.contraste .name-author{
     -webkit-border-radius: none;
     -moz-border-radius: none;
     border-radius: none;
-  }
-  .nav-collapse_ .nav {
+}
+.nav-collapse_ .nav {
     position: relative;
     zoom: 1;
     z-index: 50;
@@ -934,18 +934,18 @@ body.contraste .name-author{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-  }
-  .nav-collapse_ .nav li,
-  .nav-collapse_ .nav li wlauto {
+}
+.nav-collapse_ .nav li,
+.nav-collapse_ .nav li wlauto {
     background: none;
     margin: 0;
     padding: 0;
     display: block;
     width: 100%;
     text-align: center;
-  }
-  .nav-collapse_ .nav li a,
-  .nav-collapse_ .nav li wlauto a {
+}
+.nav-collapse_ .nav li a,
+.nav-collapse_ .nav li wlauto a {
     display: block;
     font-weight: normal;
     padding: 0;
@@ -955,37 +955,37 @@ body.contraste .name-author{
     width: 100%;
     padding: 8px 0;
     font-weight: normal;
-  }
-  .nav-collapse_ .nav > li.sfHover,
-  .nav-collapse_ .nav > li.sfHover wlauto,
-  .nav-collapse_ .nav > li:hover,
-  .nav-collapse_ .nav > li:focus,
-  .nav-collapse_ .nav > li:hover wlauto,
-  .nav-collapse_ .nav > li:focus wlauto,
-  .nav-collapse_ .nav > li.active,
-  .nav-collapse_ .nav > li.active wlauto {
+}
+.nav-collapse_ .nav > li.sfHover,
+.nav-collapse_ .nav > li.sfHover wlauto,
+.nav-collapse_ .nav > li:hover,
+.nav-collapse_ .nav > li:focus,
+.nav-collapse_ .nav > li:hover wlauto,
+.nav-collapse_ .nav > li:focus wlauto,
+.nav-collapse_ .nav > li.active,
+.nav-collapse_ .nav > li.active wlauto {
     background: none;
-  }
-  .nav-collapse_ .nav > li.sfHover > a,
-  .nav-collapse_ .nav > li.sfHover > wlauto a,
-  .nav-collapse_ .nav > li.sfHover > a:hover,
-  .nav-collapse_ .nav > li.sfHover > wlauto a:hover,
-  .nav-collapse_ .nav > li > a:hover,
-  .nav-collapse_ .nav > li > wlauto a:hover,
-  .nav-collapse_ .nav > li.active > a,
-  .nav-collapse_ .nav > li.active > wlauto a,
-  .nav-collapse_ .nav > li.active > a:hover,
-  .nav-collapse_ .nav > li.active > wlauto a:hover,
-    .nav-collapse_ .nav > li.active > wlauto a:focus {
+}
+.nav-collapse_ .nav > li.sfHover > a,
+.nav-collapse_ .nav > li.sfHover > wlauto a,
+.nav-collapse_ .nav > li.sfHover > a:hover,
+.nav-collapse_ .nav > li.sfHover > wlauto a:hover,
+.nav-collapse_ .nav > li > a:hover,
+.nav-collapse_ .nav > li > wlauto a:hover,
+.nav-collapse_ .nav > li.active > a,
+.nav-collapse_ .nav > li.active > wlauto a,
+.nav-collapse_ .nav > li.active > a:hover,
+.nav-collapse_ .nav > li.active > wlauto a:hover,
+.nav-collapse_ .nav > li.active > wlauto a:focus {
     text-decoration: none;
     color: #ffffff;
     background: #5B7025;
-  }
-  .sub-menu > a {
+}
+.sub-menu > a {
     position: relative;
     display: block;
-  }
-  .nav-collapse_ .nav ul {
+}
+.nav-collapse_ .nav ul {
     position: relative;
     display: none;
     width: 100%;
@@ -997,28 +997,28 @@ body.contraste .name-author{
     margin: 0;
     left: 0;
     top: 0;
-  }
-  .nav-collapse_ .nav ul li a,
-  .nav-collapse_ .nav ul li wlauto a {
+}
+.nav-collapse_ .nav ul li a,
+.nav-collapse_ .nav ul li wlauto a {
     display: block;
     font-size: 16px;
     padding: 4px 0;
-  }
-  .nav-collapse_ .nav ul li a:hover,
-  .nav-collapse_ .nav ul li wlauto a:hover {
+}
+.nav-collapse_ .nav ul li a:hover,
+.nav-collapse_ .nav ul li wlauto a:hover {
     background: #575757 !important;
-  }
+}
 
-  .banners {
+.banners {
     display: none;
-  }
+}
 
-  .brand, 
-  h1{
+.brand, 
+h1{
     top: 80px !important;
     left: 10% !important;
-  }
- /*
+}
+/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
