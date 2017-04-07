@@ -64,22 +64,22 @@
                 <div id="mosaico">
 
                     <div id="um1">
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" src="pepa1.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag7" src="pepa2.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag3" src="pepa3.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" src="/imagens/pepa1.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag7" src="/imagens/pepa2.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag3" src="/imagens/pepa3.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
 
                     </div>
 
                     <div id="dois2">
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag4" src="pepa4.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag5" src="pepa5.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag6" src="pepa6.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag4" src="/imagens/pepa4.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag5" src="/imagens/pepa5.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag6" src="/imagens/pepa6.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
 
                     </div>
 
                     <div id="tres3">
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag2" src="pepa7.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
-                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag8" src="pepa8.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag2" src="/imagens/pepa7.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
+                        <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag8" src="/imagens/pepa8.jpg" draggable="true" ondragstart="drag(event)" alt="" width="100" height="100" border="0"></div>
                         <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
                     </div>
