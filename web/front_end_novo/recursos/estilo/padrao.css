@@ -18,7 +18,9 @@ and open the template in the editor.
     Author     : morganar
 */
 
-
+.dropdown-content * {
+    color:black;
+}
 .nav-wrapper{
     background-color:#ffffff;
 }
@@ -79,8 +81,8 @@ body,html{
 }
 
 
-.formEntreEmContato{
-    margin: 5% 30% 20% 35%; 
+.dimensoes{
+    margin: 10% 10% 20% 30%; 
 }
 .btn-form{
     margin-left: 80%;

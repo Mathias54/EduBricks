@@ -8,43 +8,43 @@
 <!DOCTYPE html>
 <html>
         <ul id="dropdownNumeros" class="dropdown-content">
-            <li><a href="#!">Soma</a></li>
-            <li><a href="#!">Subtração</a></li>
-            <li><a href="#!">Escrita de Número</a></li>
+            <li><a href="soma.jsp" style="color:#000;" >Soma</a></li>
+            <li><a href="#!" style="color:#000;" >Subtração</a></li>
+            <li><a href="#!" style="color:#000;" >Escrita de Número</a></li>
         </ul>
     
         <ul id="dropdownCor" class="dropdown-content">
-            <li><a href="#!">Reconhecer a Cor</a></li>
-            <li><a href="#!">Escrever Nome da cor</a></li>
+            <li><a href="#!" style="color:#000;" >Reconhecer a Cor</a></li>
+            <li><a href="#!" style="color:#000;" >Escrever Nome da cor</a></li>
         </ul>
     
         <ul id="dropdownMemoria" class="dropdown-content">
-            <li><a href="#!">Priscesas</a></li>
-            <li><a href="#!">Carros</a></li>
-            <li><a href="#!">Bob Esponja</a></li>
-            <li><a href="#!">Sing!</a></li>
+            <li><a href="#!" style="color:#000;" >Priscesas</a></li>
+            <li><a href="#!" style="color:#000;" >Carros</a></li>
+            <li><a href="#!" style="color:#000;" >Bob Esponja</a></li>
+            <li><a href="#!" style="color:#000;" >Sing!</a></li>
         </ul>
     
         <ul id="dropdownSom" class="dropdown-content">
-            <li><a href="#!">Animais</a></li>
-            <li><a href="#!">Instrumento</a></li>
-            <li><a href="#!">Exploração</a></li>
+            <li><a href="#!" style="color:#000;" >Animais</a></li>
+            <li><a href="#!" style="color:#000;" >Instrumento</a></li>
+            <li><a href="#!" style="color:#000;" >Exploração</a></li>
         </ul>
     
         <ul id="dropdownQuebraCabeça" class="dropdown-content">
-            <li><a href="#!">Turma da Mônica</a></li>
-            <li><a href="#!">Pêpa</a></li>
+            <li><a href="#!" style="color:#000;" >Turma da Mônica</a></li>
+            <li><a href="#!" style="color:#000;" >Pêpa</a></li>
         </ul>
     
         <ul id="dropdownOutros" class="dropdown-content">
-            <li><a href="#!">Partes do Corpo</a></li>
-            <li><a href="#!">Jogo da Velha</a></li>
+            <li><a href="#!" style="color:#000;" >Partes do Corpo</a></li>
+            <li><a href="#!" style="color:#000;" >Jogo da Velha</a></li>
         </ul>
         
     
         <nav class="nav">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo" style="color:black">EduBrink</a>
+                <a href="#" class="brand-logo left-align" style="color:black;">EduBrink</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <!-- Dropdown Trigger -->

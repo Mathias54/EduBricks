@@ -7,13 +7,13 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <jsp:include page="topo.jsp"></jsp:include>
+    <jsp:include page="comuns/topo.jsp"></jsp:include>
     <body>
-        <jsp:include page="menus.jsp"></jsp:include>
+        <jsp:include page="comuns/menus.jsp"></jsp:include>
         <div id="oque" class="col s12">
             <div class="row">
                 <div class="col s12 img-apresentacao">
-                    <img class="img-inicial" src="cadeirante-feliz.jpg" alt=""/>
+                    <img class="img-inicial" src="recursos/imagens/cadeirante-feliz.jpg" alt=""/>
                 </div>
                 <div class="col s12">
                     <div class="row">
@@ -31,6 +31,6 @@
                 </div>
             </div>
         </div>
-    <jsp:include page="rodape.jsp"></jsp:include>
+    <jsp:include page="comuns/rodape.jsp"></jsp:include>
     </body>
 </html>

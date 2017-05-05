@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="novo.css" rel="stylesheet" type="text/css">
-        <title>topo.jsp</title>
+        <title>topo</title>
     </head>
     <body>
     <center><img src="imagens/logonovo.jpg" width="850" height="150" alt="Logo do Site de Jogos Educacionais onde aparece o nome do site e umas crianças brincando."></center>
