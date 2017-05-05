@@ -13,14 +13,14 @@
         <div id="oque" class="col s12">
             <div class="row">
                 <div class="col s12 img-apresentacao">
-                    <img class="img-inicial" src="recursos/imagens/Fundo1.jpg" alt=""/>
+                    <img class="img-inicial" src="cadeirante-feliz.jpg" alt=""/>
                 </div>
                 <div class="col s12">
                     <div class="row">
                         <div class="txt-central">
                             <h5 class="titulo-central">Sobre</h5>
                             <p class=" flow-text"> 
-                                O site faz parte do Projeto de inclusão digital na escola de Educação Especial Municipal Tristão Sucupira Vianna, sob a coordenação do Professor Pedro Rocha.
+                                O site faz parte do Projeto de inclusão digital na escola de <code class="linguage-markup">Educação Especial Municipal Tristão Sucupira Vianna</code>, sob a coordenação do Professor Pedro Rocha.
                                 Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
                                 intuito de desenvolver a alfabetização de crianças e jovens. O site faz parte do Projeto de inclusão digital na escola
                                 de Educação Especial Municipal Tristão Sucupira Vianna. O site já contempla alguns jogos, onde as crianças aprendem a ler e escrever
