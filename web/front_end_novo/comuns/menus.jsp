@@ -44,7 +44,7 @@
     
         <nav class="nav">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo left-align" style="color:black;">EduBrink</a>
+                <a href="index.jsp" class="brand-logo"><img src="./recursos/imagens/edu.png" alt="" style="margin-top: 15px; max-height: 34px;"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <!-- Dropdown Trigger -->
