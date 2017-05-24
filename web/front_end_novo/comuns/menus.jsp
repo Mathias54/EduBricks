@@ -9,8 +9,8 @@
 <html>
         <ul id="dropdownNumeros" class="dropdown-content">
             <li><a href="soma.jsp" style="color:#000;" >Soma</a></li>
-            <li><a href="#!" style="color:#000;" >Subtração</a></li>
-            <li><a href="#!" style="color:#000;" >Escrita de Número</a></li>
+            <li><a href="subtracao.jsp" style="color:#000;" >Subtração</a></li>
+            <li><a href="escrevaNumero.jsp" style="color:#000;" >Escrita de Número</a></li>
         </ul>
     
         <ul id="dropdownCor" class="dropdown-content">
@@ -61,9 +61,9 @@
                             <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Número</a>
                                 <div class="collapsible-body">
                                     <ul>
-                                        <li><a href="#!">Soma</a></li>
-                                        <li><a href="#!">Subtração</a></li>
-                                        <li><a href="#!">Escrita de Número</a></li>
+                                        <li><a href="soma.jsp">Soma</a></li>
+                                        <li><a href="subtracao.jsp">Subtração</a></li>
+                                        <li><a href="escrevaNumero.jsp">Escrita de Número</a></li>
                                     </ul>
                                 </div>
                             </li>
