@@ -296,6 +296,38 @@
             }
             document.getElementById('numero1').innerHTML = numero;
         }
+        
+        function cores()
+        {
+            var cores = [ "red", "#2bb3db", "green", "yellow" ];
+            var cores1  = [ "vermelho", "azul", "verde", "amarelo" ];
+            
+            document.getElementById('resposta0').setAttribute('href', '#modal2');
+            document.getElementById('resposta1').setAttribute('href', '#modal2');
+            document.getElementById('resposta2').setAttribute('href', '#modal2');
+            
+            var sorteio = Math.floor(Math.random() * (cores.length - 1));
+            document.getElementById('cor').style.backgroundColor = cores[sorteio];
+            console.log(sorteio);
+            
+            for (var i = 0; i < 3; i++)
+            {
+                var palavra = 'resposta' + i;
+                console.log(palavra);
+                var corFalsa = cores1[Math.floor(Math.random() * (cores.length - 1))];
+                
+                document.getElementById(palavra).innerHTML = corFalsa;
+
+                if(i === sorteio)
+                {
+                    palavra = 'resposta' + sorteio;
+                    console.log('-----' + palavra);
+                    document.getElementById(palavra).innerHTML = cores1[sorteio];
+                    document.getElementById(palavra).setAttribute('href', "#modal1");
+                }
+            }
+            document.getElementById('cor').style.backgroundColor = cores[sorteio];
+        }
     </script>
     <script>
         $(document).ready(function () {
