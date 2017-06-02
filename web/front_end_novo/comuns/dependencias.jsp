@@ -299,34 +299,54 @@
         
         function cores()
         {
-            var cores = [ "red", "#2bb3db", "green", "yellow" ];
-            var cores1  = [ "vermelho", "azul", "verde", "amarelo" ];
+            var coresIng = [ "red", "#2bb3db", "green", "yellow" ];
+            var coresPt  = [ "vermelho", "azul", "verde", "amarelo" ];
+            var indiceCores = [];
+            var auxCoresIng = [];
+            var auxCoresPt = [];
             
             document.getElementById('resposta0').setAttribute('href', '#modal2');
             document.getElementById('resposta1').setAttribute('href', '#modal2');
             document.getElementById('resposta2').setAttribute('href', '#modal2');
             
-            var sorteio = Math.floor(Math.random() * (cores.length - 1));
-            document.getElementById('cor').style.backgroundColor = cores[sorteio];
-            console.log(sorteio);
-            
             for (var i = 0; i < 3; i++)
             {
                 var palavra = 'resposta' + i;
-                console.log(palavra);
-                var corFalsa = cores1[Math.floor(Math.random() * (cores.length - 1))];
-                
-                document.getElementById(palavra).innerHTML = corFalsa;
-
-                if(i === sorteio)
+                var cor = Math.floor(Math.random() * (coresPt.length));
+                if(i === 0)
                 {
-                    palavra = 'resposta' + sorteio;
-                    console.log('-----' + palavra);
-                    document.getElementById(palavra).innerHTML = cores1[sorteio];
-                    document.getElementById(palavra).setAttribute('href', "#modal1");
+                    document.getElementById(palavra).innerHTML = coresPt[cor];
+                    indiceCores[i] = cor;
+                    auxCoresIng[i] = coresIng[cor];
+                    auxCoresPt[i] = coresPt[cor];
+                }
+                else
+                {
+                    if(indiceCores.includes(cor))
+                        i--;
+                    else
+                    {
+                        document.getElementById(palavra).innerHTML = coresPt[cor];
+                        indiceCores[i] = cor;
+                        auxCoresIng[i] = coresIng[cor];
+                        auxCoresPt[i] = coresPt[cor];
+                    }
                 }
             }
-            document.getElementById('cor').style.backgroundColor = cores[sorteio];
+            
+            var certo = Math.floor(Math.random() * (auxCoresIng.length));
+            document.getElementById('cor').style.backgroundColor = auxCoresIng[certo];
+            cor = coresIng.indexOf(document.getElementById('cor').style.backgroundColor);
+            
+            for(var i = 0; i < auxCoresIng.length; i++)
+            {
+                var palavra = "resposta" + i;
+                if(document.getElementById(palavra).innerHTML === auxCoresPt[certo])
+                {
+                    document.getElementById(palavra).setAttribute('href', "#modal1");
+                    break;
+                }
+            }
         }
     </script>
     <script>
