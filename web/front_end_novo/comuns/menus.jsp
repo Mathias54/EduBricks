@@ -14,27 +14,27 @@
         </ul>
     
         <ul id="dropdownCor" class="dropdown-content">
-            <li><a href="#!" style="color:#000;" >Reconhecer a Cor</a></li>
-            <li><a href="#!" style="color:#000;" >Escrever Nome da cor</a></li>
+            <li><a href="cores.jsp" style="color:#000;" >Reconhecer a Cor</a></li>
+            <li><a href="escrevaNumero.jsp" style="color:#000;" >Escrever Nome da cor</a></li>
         </ul>
     
-        <ul id="dropdownMemoria" class="dropdown-content">
+<!--        <ul id="dropdownMemoria" class="dropdown-content">
             <li><a href="#!" style="color:#000;" >Priscesas</a></li>
             <li><a href="#!" style="color:#000;" >Carros</a></li>
             <li><a href="#!" style="color:#000;" >Bob Esponja</a></li>
             <li><a href="#!" style="color:#000;" >Sing!</a></li>
-        </ul>
+        </ul>-->
     
         <ul id="dropdownSom" class="dropdown-content">
-            <li><a href="#!" style="color:#000;" >Animais</a></li>
+            <li><a href="somAnimais.jsp" style="color:#000;" >Animais</a></li>
             <li><a href="#!" style="color:#000;" >Instrumento</a></li>
             <li><a href="#!" style="color:#000;" >Exploração</a></li>
         </ul>
     
-        <ul id="dropdownQuebraCabeça" class="dropdown-content">
+<!--        <ul id="dropdownQuebraCabeça" class="dropdown-content">
             <li><a href="#!" style="color:#000;" >Turma da Mônica</a></li>
             <li><a href="#!" style="color:#000;" >Pêpa</a></li>
-        </ul>
+        </ul>-->
     
         <ul id="dropdownOutros" class="dropdown-content">
             <li><a href="#!" style="color:#000;" >Partes do Corpo</a></li>
@@ -50,10 +50,10 @@
                     <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button" href="#!" data-activates="dropdownNumeros">Número<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a class="dropdown-button" href="#!" data-activates="dropdownCor">Cores<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdownMemoria">Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <!--<li><a class="dropdown-button" href="#!" data-activates="dropdownMemoria">Memória<i class="material-icons right">arrow_drop_down</i></a></li>-->
                     <li><a class="dropdown-button" href="#!" data-activates="dropdownSom">Audio-visual<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdownQuebraCabeça">Quebra-Cabeça<i class="material-icons right">arrow_drop_down</i></a></li> 
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdownQuebraCabeça">Outros<i class="material-icons right">arrow_drop_down</i></a></li>                 
+                    <!--<li><a class="dropdown-button" href="#!" data-activates="dropdownQuebraCabeça">Quebra-Cabeça<i class="material-icons right">arrow_drop_down</i></a></li>--> 
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdownOutros">Outros<i class="material-icons right">arrow_drop_down</i></a></li>                 
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li class="no-padding">
@@ -78,7 +78,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <ul class="collapsible collapsible-accordion">
+<!--                        <ul class="collapsible collapsible-accordion">
                             <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Memória</a>
                                 <div class="collapsible-body">
                                     <ul>
@@ -89,7 +89,7 @@
                                     </ul>
                                 </div>
                             </li>
-                        </ul>
+                        </ul>-->
                         <ul class="collapsible collapsible-accordion">
                             <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Som</a>
                                 <div class="collapsible-body">
@@ -101,7 +101,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <ul class="collapsible collapsible-accordion">
+<!--                        <ul class="collapsible collapsible-accordion">
                             <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Quebra-Cabeça</a>
                                 <div class="collapsible-body">
                                     <ul>
@@ -110,7 +110,7 @@
                                     </ul>
                                 </div>
                             </li>
-                        </ul>
+                        </ul>-->
                         <ul class="collapsible collapsible-accordion">
                             <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Outros</a>
                                 <div class="collapsible-body">

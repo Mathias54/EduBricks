@@ -19,7 +19,7 @@
                     <div class="row">
                         <div class="txt-central">
                             <h5 class="titulo-central">Sobre</h5>
-                            <p class=" flow-text"> 
+                            <p class=" flow-text" align="justify"> 
                                 O site faz parte do Projeto de inclusão digital na escola de <code class="linguage-markup">Educação Especial Municipal Tristão Sucupira Vianna</code>, sob a coordenação do Professor Pedro Rocha.
                                 Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
                                 intuito de desenvolver a alfabetização de crianças e jovens. O site faz parte do Projeto de inclusão digital na escola

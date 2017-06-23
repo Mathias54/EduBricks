@@ -11,7 +11,78 @@
     <script src="recursos/js/materialize.js"></script>
     <script src="recursos/js/init.js"></script>
     <script>
-
+        
+        var valores = {
+                sons: [
+                    {
+                        "path":"./recursos/sons/baleia.mp3",
+                        "resultado": [
+                                    {"valor": "Cachorro", "correto": false},
+                                    {"valor": "Baleia", "correto": true},
+                                    {"valor": "Gato", "correto": false}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/abelhas.mp3",
+                        "resultado": [
+                                    {"valor": "Abelha", "correto": true},
+                                    {"valor": "Elefante", "correto": false},
+                                    {"valor": "Galinha", "correto": false}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/cachorro.wav",
+                        "resultado": [
+                                    {"valor": "Gato", "correto": false},
+                                    {"valor": "Cachorro", "correto": true},
+                                    {"valor": "Porco", "correto": false}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/elefante.mp3",
+                        "resultado": [
+                                    {"valor": "Passaro", "correto": false},
+                                    {"valor": "Onça", "correto": false},
+                                    {"valor": "Elefante", "correto": true}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/galinha.wav",
+                        "resultado": [
+                                    {"valor": "Galinha", "correto": true},
+                                    {"valor": "Abelha", "correto": false},
+                                    {"valor": "Cachorro", "correto": false}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/gato.wav",
+                        "resultado": [
+                                    {"valor": "Abelha", "correto": false},
+                                    {"valor": "Gato", "correto": true},
+                                    {"valor": "Pássaro", "correto": false}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/onca.mp3",
+                        "resultado": [
+                                    {"valor": "Elefante", "correto": false},
+                                    {"valor": "Gato", "correto": false},
+                                    {"valor": "Onça", "correto": true}
+                        ]
+                    },
+                    {
+                        "path":"./recursos/sons/passaro.wav",
+                        "resultado": [
+                                    {"valor": "Cachorro", "correto": false},
+                                    {"valor": "Pássaro", "correto": true},
+                                    {"valor": "Baleia", "correto": false}
+                        ]
+                    }
+                ]
+            };
+        var sorteioValor = Math.floor((Math.random() * valores.sons.length));
+        var audio1 = new Audio();
+        
         String.prototype.extenso = function (c) {
             var ex = [
                 ["zero", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez", "onze", "doze", "treze", "quatorze", "quinze", "dezesseis", "dezessete", "dezoito", "dezenove"],
@@ -347,6 +418,46 @@
                     break;
                 }
             }
+        }
+        
+        function execucaoSom(){
+            
+            audio1.pause();
+            audio1.currentTime = 0;
+            
+            var url = valores.sons[sorteioValor].path;
+            
+            audio1.src = url;
+            audio1.play();
+        }
+        
+        function somAnimais(){
+            sorteioValor = Math.floor((Math.random() * valores.sons.length));
+            audio1.pause();
+            audio1.currentTime = 0;
+            
+            document.getElementById('imagemsom').innerHTML = valores.sons[sorteioValor].path;
+            document.getElementById('resposta0').innerHTML = valores.sons[sorteioValor].resultado[0].valor;
+            document.getElementById('resposta1').innerHTML = valores.sons[sorteioValor].resultado[1].valor;
+            document.getElementById('resposta2').innerHTML = valores.sons[sorteioValor].resultado[2].valor;
+       
+//            document.getElementById('paragrafo').setAttribute('onClick', url);
+            
+            if (valores.sons[sorteioValor].resultado[0].correto) {
+                document.getElementById('resposta0').setAttribute('href', "#modal1");
+            }
+
+            if (valores.sons[sorteioValor].resultado[1].correto) {
+                document.getElementById('resposta1').setAttribute('href', "#modal1");
+            }
+
+            if (valores.sons[sorteioValor].resultado[2].correto) {
+                document.getElementById('resposta2').setAttribute('href', "#modal1");
+            }
+        }
+        
+        function pausarSom(){
+            audio1.pause();
         }
     </script>
     <script>
