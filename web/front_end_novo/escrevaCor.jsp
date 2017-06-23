@@ -1,6 +1,6 @@
 <%-- 
-    Document   : cores
-    Created on : 01/06/2017, 15:13:39
+    Document   : esrevaCor
+    Created on : 23/06/2017, 09:13:30
     Author     : Ayres
 --%>
 
@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <jsp:include page="comuns/topo.jsp"></jsp:include>
-    <body onload="cores()">
+    <body onload="escrevaCor()">
         <jsp:include page="comuns/menus.jsp"></jsp:include>
             <div id="oque" class="col s12">
                 <div class="row">
@@ -17,10 +17,11 @@
                             <div class="txt-central">
                                 <center>
                                     <h5 class="titulo-central">Identifique a cor:</h5>
-                                    <p id="cor" style="background-color: white; border-radius: 5px; height: 200px; width: 200px; color: black; font-size: 30px;"></p>
-                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta0" style="width: 200px; margin-bottom: 5px;"></a>
-                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta1" style="width: 200px; margin-bottom: 5px"></a>
-                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta2" style="width: 200px; margin-bottom: 5px"></a>
+                                    <p id="cor" style="width: 200px; margin-bottom: 5px; background-color: white; border-radius: 5px; color: black; font-size: 30px;"></p>
+                                    <br/>
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta0" style="background-color: white; border-radius: 5px; height: 100px; width: 200px; color: black;"></a>
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta1" style="background-color: white; border-radius: 5px; height: 100px; width: 200px; color: black;"></a>
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta2" style="background-color: white; border-radius: 5px; height: 100px; width: 200px; color: black;"></a>
                                 </center>
                             </div>
                         </div>

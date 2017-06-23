@@ -459,6 +459,61 @@
         function pausarSom(){
             audio1.pause();
         }
+        
+        function escrevaCor()
+        {
+            var coresIng = [ "red", "#2bb3db", "green", "yellow" ];
+            var coresPt  = [ "vermelho", "azul", "verde", "amarelo" ];
+            var indiceCores = [];
+            var auxCoresIng = [];
+            var auxCoresPt = [];
+            
+            document.getElementById('resposta0').setAttribute('href', '#modal2');
+            document.getElementById('resposta1').setAttribute('href', '#modal2');
+            document.getElementById('resposta2').setAttribute('href', '#modal2');
+            
+            for (var i = 0; i < 3; i++)
+            {
+                var palavra = 'resposta' + i;
+                var cor = Math.floor(Math.random() * (coresPt.length));
+                if(i === 0)
+                {
+                    document.getElementById(palavra).style.backgroundColor = coresIng[cor];
+                    //document.getElementById(palavra).innerHTML = coresPt[cor];
+                    indiceCores[i] = cor;
+                    auxCoresIng[i] = coresIng[cor];
+                    auxCoresPt[i] = coresPt[cor];
+                }
+                else
+                {
+                    if(indiceCores.includes(cor))
+                        i--;
+                    else
+                    {
+                        document.getElementById(palavra).style.backgroundColor = coresIng[cor];
+                        //document.getElementById(palavra).innerHTML = coresPt[cor];
+                        indiceCores[i] = cor;
+                        auxCoresIng[i] = coresIng[cor];
+                        auxCoresPt[i] = coresPt[cor];
+                    }
+                }
+            }
+            
+            var certo = Math.floor(Math.random() * (auxCoresIng.length));
+            document.getElementById('cor').innerHTML = auxCoresPt[certo];
+            //document.getElementById('cor').style.backgroundColor = auxCoresIng[certo];
+            cor = coresIng.indexOf(document.getElementById('cor').style.backgroundColor);
+            
+            for(var i = 0; i < auxCoresIng.length; i++)
+            {
+                var palavra = "resposta" + i;
+                if(document.getElementById(palavra).innerHTML === auxCoresPt[certo])
+                {
+                    document.getElementById(palavra).setAttribute('href', "#modal1");
+                    break;
+                }
+            }
+        }
     </script>
     <script>
         $(document).ready(function () {
