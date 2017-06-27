@@ -15,7 +15,7 @@
     
         <ul id="dropdownCor" class="dropdown-content">
             <li><a href="cores.jsp" style="color:#000;" >Reconhecer a Cor</a></li>
-            <li><a href="escrevaNumero.jsp" style="color:#000;" >Escrever Nome da cor</a></li>
+            <li><a href="escrevaCor.jsp" style="color:#000;" >Escrever Nome da cor</a></li>
         </ul>
     
 <!--        <ul id="dropdownMemoria" class="dropdown-content">

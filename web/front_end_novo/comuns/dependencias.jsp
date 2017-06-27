@@ -462,8 +462,8 @@
         
         function escrevaCor()
         {
-            var coresIng = [ "red", "#2bb3db", "green", "yellow" ];
-            var coresPt  = [ "vermelho", "azul", "verde", "amarelo" ];
+            var coresIng = [ "red", "deepskyblue", "green", "yellow" ];
+            var coresPt  = [ "VERMELHO", "AZUL", "VERDE", "AMARELO" ];
             var indiceCores = [];
             var auxCoresIng = [];
             var auxCoresPt = [];
@@ -479,7 +479,6 @@
                 if(i === 0)
                 {
                     document.getElementById(palavra).style.backgroundColor = coresIng[cor];
-                    //document.getElementById(palavra).innerHTML = coresPt[cor];
                     indiceCores[i] = cor;
                     auxCoresIng[i] = coresIng[cor];
                     auxCoresPt[i] = coresPt[cor];
@@ -491,7 +490,6 @@
                     else
                     {
                         document.getElementById(palavra).style.backgroundColor = coresIng[cor];
-                        //document.getElementById(palavra).innerHTML = coresPt[cor];
                         indiceCores[i] = cor;
                         auxCoresIng[i] = coresIng[cor];
                         auxCoresPt[i] = coresPt[cor];
@@ -502,12 +500,13 @@
             var certo = Math.floor(Math.random() * (auxCoresIng.length));
             document.getElementById('cor').innerHTML = auxCoresPt[certo];
             //document.getElementById('cor').style.backgroundColor = auxCoresIng[certo];
-            cor = coresIng.indexOf(document.getElementById('cor').style.backgroundColor);
+            //cor = coresPt.indexOf(document.getElementById('cor').innerHTML);
             
             for(var i = 0; i < auxCoresIng.length; i++)
             {
                 var palavra = "resposta" + i;
-                if(document.getElementById(palavra).innerHTML === auxCoresPt[certo])
+                cor = auxCoresIng.indexOf(document.getElementById(palavra).style.backgroundColor);
+                if(cor === certo)
                 {
                     document.getElementById(palavra).setAttribute('href', "#modal1");
                     break;

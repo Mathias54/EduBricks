@@ -36,7 +36,7 @@
                     <center><img src="recursos/imagens/correto.png" alt="" style="height: 30%; width: 30%;"/></center>
                 </div>
                 <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="cores();">Ok!</a>
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="escrevaCor();">Ok!</a>
                 </div>
             </center>
         </div>
