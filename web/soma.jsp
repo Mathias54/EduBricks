@@ -1,46 +1,58 @@
+    
 <%-- 
-    Document   : soma
-    Created on : 14/07/2016, 14:05:32
-    Author     : Josi Schwarz
+Document   : index
+Created on : 07/04/2017, 11:06:37
+Author     : mathias
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<link href="novo.css" rel="stylesheet" type="text/css">
-
-<jsp:include page="topo.jsp"></jsp:include>
-
-<div id="conteudo1" align="center">
-    <h3>Some os seguintes numeros</h3>
-    <br/> 
-
-
-    <head>
-        <title>Some os seguintes numeros</title>
-
-    <div id="soma">                                                                      
-        <img src="imagens/seis.jpg"  width="100" height="100"alt="desenho de um numero 3"> 
-        <img src="imagens/mais.png" width="100" height="100" alt="desenho do sinal de mais">
-        <img src="imagens/cinco.jpg" width="100" height="100" alt="desenho do sinal de mais">
-        <img src="imagens/igual.png" width="100" height="100" alt="desenho do sinal de mais">
-        <img src="imagens/interrogação.jpg" width="100" height="100" alt="desenho do sinal de mais">
-        <h2> <a href="dez" target="_blank"></a>&nbsp <a href="Errado.jsp">Dez</a><a href="cinco" target="_blank"></a>&nbsp <a href="Errado.jsp">Cinco</a><a href="onze" target="_blank"></a>&nbsp <a href="certo.jsp">Onze</a></h2> 
-
-    </div>
-    <div id="soma1">                                                                      
-        <img src="imagens/sete.jpg"  width="100" height="100"alt="desenho de um numero 3"> 
-        <img src="imagens/mais.png" width="100" height="100" alt="desenho do sinal de mais">
-        <img src="imagens/seis.jpg" width="100" height="100" alt="desenho do sinal de mais">
-        <img src="imagens/igual.png" width="100" height="100" alt="desenho do sinal de mais">
-        <img src="imagens/interrogação.jpg" width="100" height="100" alt="desenho do sinal de mais">
-        <h2> <a href="dez" target="_blank"></a> &nbsp<a href="Errado.jsp">Dez</a><a href="treze" target="_blank"></a>&nbsp <a href="certo.jsp">Treze</a><a href="cinco" target="_blank"></a> <a href="Errado.jsp">Cinco</a>&nbsp<a href="oito" target="_blank"></a> <a href="certo.jsp">Oito</a></h2> 
-
-
-
-    </div>
-
-    <br><br>
-
-    </body>
-
-    </html>
+<html>
+    <jsp:include page="comuns/topo.jsp"></jsp:include>
+        <body onload="soma()">
+        <jsp:include page="comuns/menus.jsp"></jsp:include>
+            <div id="oque" class="col s12">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <div class="txt-central">
+                                <center>
+                                    <h5 class="titulo-central">Some os números:</h5>
+                                    <p id="numero1" style="background-color: white; border-radius: 5px; height: 50px; width: 50px; color: black; font-size: 30px;">numero 1</p>
+                                    <p id="operador" style="background-color: white; border-radius: 5px; height: 50px; width: 50px; color: black; font-size: 30px;">Operador</p>
+                                    <p id="numero2" style="background-color: white; border-radius: 5px; height: 50px; width: 50px; color: black; font-size: 30px;">numero 3</p>
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta1" style="width: 200px; margin-bottom: 5px;">resposta 1</a>
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta2" style="width: 200px; margin-bottom: 5px">resposta 2</a>
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2" id="resposta3" style="width: 200px; margin-bottom: 5px">resposta 3</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <center>
+                <div class="modal-content">
+                    <h3 style="color: black">Parabéns, você acertou!</h3>
+                    <center><img src="recursos/imagens/correto.png" alt="" style="height: 30%; width: 30%;"/></center>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="soma();">Ok!</a>
+                </div>
+            </center>
+        </div>
+        <div id="modal2" class="modal">
+            <center>
+                <div class="modal-content">
+                    <h3 style="color: black">Que pena, você errou!</h3>
+                    <center><img src="recursos/imagens/errado.png" alt="" style="height: 30%; width: 30%;"/></center>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">ok!</a>
+                </div>
+            </center>
+        </div>
+    <jsp:include page="comuns/dependencias.jsp"></jsp:include>
+</body>
+</html>

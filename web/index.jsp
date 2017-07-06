@@ -1,20 +1,61 @@
-<%@page contentType="text/html"%>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="novo.css" rel="stylesheet" type="text/css">
+<%-- 
+    Document   : index
+    Created on : 07/04/2017, 11:06:37
+    Author     : mathias
+--%>
 
-<jsp:include page="topo.jsp"></jsp:include>
-<br><br>
-<div id="conteudo2" align="justify">
-    <br><br>
-    <h1>Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o intuito de
-        desenvolver a alfabetizaÁ„o de crianÁas e jovens. O site faz parte do Projeto de inclus„o digital na escola de EducaÁ„o Especial Municipal Trist„o Sucupira Vianna, sob 
-        a coordenaÁ„o do Professor Pedro Rocha.
-        Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
-        intuito de desenvolver a alfabetizaÁ„o de crianÁas e jovens. O site faz parte do Projeto de inclus„o digital na escola
-        de EducaÁ„o Especial Municipal Trist„o Sucupira Vianna?, sob O projeto visa adaptar o laboratÛrio, pesquisar e criar jogos 
-        pedagÛgicos para auxiliar na aprendizagem dos alunos. O site j· contempla alguns jogos, onde as crianÁas aprendem a ler e escrever
-        se divertindo. Elas tambÈm podem identificar as imagens apresentadas,aumentando a intuitividade e desenvolvendo o cognitivo atravÈs da ludicidade. 
-        O site È din‚mico e em constante evoluÁ„o, porque estar· sempre se adaptando a aceitaÁ„o e aprovaÁ„o deste p˙blico especÌfico.</h1>
-</div>
-</body>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <jsp:include page="comuns/topo.jsp"></jsp:include>
+    <body>
+        <jsp:include page="comuns/menus.jsp"></jsp:include>
+        <div id="oque" class="col s12">
+            <div class="row">
+                <div class="col s12 img-apresentacao">
+                    <img class="img-inicial" src="recursos/imagens/cadeirante-feliz.jpg" alt=""/>
+                </div>
+                <div class="col s12">
+                    <div class="row">
+                        <div class="txt-central">
+                            <h5 class="titulo-central">Sobre</h5>
+                            <p class=" flow-text" align="justify"> 
+                                O site faz parte do Projeto de inclus√£o digital na escola de <code class="linguage-markup">Educa√ß√£o Especial Municipal Trist√£o Sucupira Vianna</code>, sob a coordena√ß√£o do Professor Pedro Rocha.
+                                Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
+                                intuito de desenvolver a alfabetiza√ß√£o de crian√ßas e jovens. O site faz parte do Projeto de inclus√£o digital na escola
+                                de Educa√ß√£o Especial Municipal Trist√£o Sucupira Vianna. O site j√° contempla alguns jogos, onde as crian√ßas aprendem a ler e escrever
+                                se divertindo. Elas tamb√©m podem identificar as imagens apresentadas, aumentando a intuitividade e desenvolvendo o cognitivo atrav√©s da ludicidade. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--        <div id="oque" class="col s12">
+            <div class="row" style="height: 100%;">
+                <div class="col s12 img-apresentacao">
+                    <img class="img-inicial" src="recursos/imagens/cadeirante-feliz.jpg" alt=""/>
+                </div>
+                <div class="col s12" style="background: url('recursos/imagens/cadeirante-feliz.jpg') no-repeat center center fixed; -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: blur(3px);">
+                    <div class="row">
+                        <div class="txt-central">
+                            <h5 class="titulo-central">Sobre</h5>
+                            <p class=" flow-text" align="justify" style="filter: none;"> 
+                                O site faz parte do Projeto de inclus√£o digital na escola de <code class="linguage-markup">Educa√ß√£o Especial Municipal Trist√£o Sucupira Vianna</code>, sob a coordena√ß√£o do Professor Pedro Rocha.
+                                Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
+                                intuito de desenvolver a alfabetiza√ß√£o de crian√ßas e jovens. O site faz parte do Projeto de inclus√£o digital na escola
+                                de Educa√ß√£o Especial Municipal Trist√£o Sucupira Vianna. O site j√° contempla alguns jogos, onde as crian√ßas aprendem a ler e escrever
+                                se divertindo. Elas tamb√©m podem identificar as imagens apresentadas, aumentando a intuitividade e desenvolvendo o cognitivo atrav√©s da ludicidade. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    <jsp:include page="comuns/rodape.jsp"></jsp:include>
+    </body>
 </html>
