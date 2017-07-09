@@ -1,0 +1,11 @@
+Utilizar Phaser, material disponível na web.
+
+https://phaser.io/download/stable
+
+fazer um jogo tipo match (candy crush, bejewelled e outros) do zero.
+
+http://rembound.com/articles/how-to-make-a-match3-game-with-html5-canvas
+
+JRPGS:
+
+https://gamedevelopment.tutsplus.com/articles/how-to-build-a-jrpg-a-primer-for-game-developers--gamedev-6676
