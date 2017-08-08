@@ -15,7 +15,7 @@ Projeto principal da cadeira de Tecnologias Assistivas.
 3) JavaScript
 4) JQuery (Biblioteca JavaScript)  
 
-#Contribuidores
+# Contribuidores
 1) Everton Quadros (1/2017)
 2) Jonas Ayres (1/2017)
 3) Mathias Azzolini (1/2017)
