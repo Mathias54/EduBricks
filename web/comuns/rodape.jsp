@@ -7,10 +7,10 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <footer class="page-footer">
+    <footer>
         <div class="footer-copyright">
             <div class="container">
-                © 2017
+                © 2017, entre em <a href='contato.jsp'>contato com os desenvolvedores. 
             </div>
         </div>
     </footer>

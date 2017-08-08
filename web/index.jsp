@@ -10,7 +10,7 @@
     <jsp:include page="comuns/topo.jsp"></jsp:include>
     <body>
         <jsp:include page="comuns/menus.jsp"></jsp:include>
-        <div id="oque" class="col s12">
+        <div class="col s12">
             <div class="row">
                 <div class="col s12 img-apresentacao">
                     <img class="img-inicial" src="recursos/imagens/cadeirante-feliz.jpg" alt=""/>
@@ -21,7 +21,7 @@
                             <h5 class="titulo-central">Sobre</h5>
                             <p class=" flow-text" align="justify"> 
                                 O site faz parte do Projeto de inclusão digital na escola de <code class="linguage-markup">Educação Especial Municipal Tristão Sucupira Vianna</code>, sob a coordenação do Professor Pedro Rocha.
-                                Este site foi desenvolvido pelo Instituto Federal do Rio Grande do Sul  Campus Restinga, em Porto Alegre-RS, com o 
+                                Este site foi desenvolvido pelo <code class="linguage-markup">Instituto Federal do Rio Grande do Sul  Campus Restinga</code> , em Porto Alegre-RS, com o 
                                 intuito de desenvolver a alfabetização de crianças e jovens. O site faz parte do Projeto de inclusão digital na escola
                                 de Educação Especial Municipal Tristão Sucupira Vianna. O site já contempla alguns jogos, onde as crianças aprendem a ler e escrever
                                 se divertindo. Elas também podem identificar as imagens apresentadas, aumentando a intuitividade e desenvolvendo o cognitivo através da ludicidade. 

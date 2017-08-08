@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="edubrink">
+    <output-path>$PROJECT_DIR$/out/artifacts/edubrink</output-path>
+    <root id="archive" name="edubrink.war" />
+  </artifact>
+</component>

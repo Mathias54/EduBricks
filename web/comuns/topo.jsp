@@ -14,7 +14,7 @@
         <link href="./recursos/estilo/padrao.css" rel="stylesheet" type="text/css"/>
         <link href="./recursos/estilo/materialize.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="icon" href="recursos/imagens/iconCode.png" />
+        <link rel="icon" href="recursos/imagens/dado.png" />
         <link href="../recursos/estilo/font-awesome.css" rel="stylesheet" type="text/css"/>
     <a href="../recursos/fonts/fontawesome-webfont.ttf"></a>
     </head>
