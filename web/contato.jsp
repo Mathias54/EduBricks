@@ -78,6 +78,11 @@
             /*margin: 1px;*/
         }
     </style>
+    <script src="./recursos/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="recursos/js/materialize.js"></script>
+    <script src="recursos/js/init.js"></script>
+    
+    <!--<a href="comuns/dependencias.jsp"></a>-->
     <%--<jsp:include page="comuns/rodape.jsp"></jsp:include>--%>
     </body>
 </html>
