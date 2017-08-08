@@ -24,7 +24,7 @@ Projeto principal da cadeira de Tecnologias Assistivas.
 # Professor Coordenador
 1) Pedro Rocha
 
-#Disciplina
+# Disciplina
 1) Técnologias Assistivas
 
 # TODO list para os próximos desenvolvedores:
